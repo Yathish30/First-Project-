@@ -1,6 +1,4 @@
-# First-Project-
-
-First small project on Lane line Detection.
+# PROJECT ON LANE LINE DETECTION USING OpenCV.
 
 
 
@@ -27,7 +25,7 @@ Instead of working with the entire frame, i worked with only a part of the frame
 6. Hough line transformation 
 
 
-# this is not the code which would run a video of lane detection for ever frame ,its just an example of how it is been done here a user can select a particular img no between  0-1800. Where the selected frame is given as an output for lane detection.
+#this is not the code which would run a video of lane detection for ever frame ,its just an example of how it is been done here a user can select a particular img no between  0-1800. Where the selected frame is given as an output.
 
 THANK YOU!
 
