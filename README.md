@@ -9,7 +9,7 @@ The purpose and concept of lane -line detection is to describe the path for self
 There are multiple ways to perform lane detection, such as training a deep learning model or using a pre-trained model. However, I have done it without using any deep learning model and instead used the popular OpenCV library in Python
 
 
-Firstly, I've  collected a set of images and put them in a folder named FRAMES which will be used in the code later.
+Firstly, I've  collected a set of images(downloaded) and put them in a folder named FRAMES which will be used in the code later.
 
  Then I have imported all the necessary libray which we will be using
 such as matplotlib, Numpy , os , re.
@@ -19,7 +19,7 @@ These are the futher steps which I've done in the programme to get an output in 
 1. Loading the required Frames 
 2. Frame Masking 
 3. Formulating the problems
-   For example: Instead of working with the entire frame, I've worked with only a part of the frame and apart from the lane markings, everything else has been hidden in the frame. So, as the vehicle would move, the lane markings would fall in this area only.
+   For example: Instead of working with the entire frame, I've worked with only a part of the frame and apart from the lane markings, everything else has been hidden in the frame. So, as the vehicle would move, the lane markings would fall in an area only.
 4. Image Processing 
 5. Image thresholding 
 6. Hough line transformation 
